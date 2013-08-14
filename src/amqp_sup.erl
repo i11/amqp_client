@@ -21,6 +21,8 @@
 
 -behaviour(supervisor2).
 
+-registered(amqp_sup).
+
 -export([start_link/0, start_connection_sup/1]).
 -export([init/1]).
 
